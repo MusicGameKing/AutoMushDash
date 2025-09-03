@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 18
+names: ['Boss-Pumpkin', 'Ground Monster - Candy', 'Ground Monster - Horse Rider', 'Ground Monster - Red Bullet', 'Ground Monster - Red Devil', 'Ground Monster - yellow Cloud', 'Ground-Monster---Cube', 'Ground-Monster---Harry-Potter', 'Ground-Monster---blue-Cloud', 'Ground-Monster---little-Person', 'Sky Monster - Blue Devil', 'Sky Monster - Gear', 'Sky-Monster---Blue-Bullet', 'Sky-Monster---Ghost', 'Sustained - Star', 'Two-Faced Monster', 'incentive-blue Music note', 'incentive-heart']
+
+roboflow:
+  workspace: 001-iwxwu
+  project: -muse-dash-7xzoc
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/001-iwxwu/-muse-dash-7xzoc/dataset/1

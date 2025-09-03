@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 21
+names: ['Music note', 'che', 'cheboss', 'ci', 'gu', 'gui', 'hold', 'jian', 'jiqi', 'jiqiqiu', 'jiqireng', 'kuai', 'mao', 'qiangboss', 'qiu', 'shuangya', 'tang', 'tapboss', 'xin', 'yuan', 'yun']
+
+roboflow:
+  workspace: 001-iwxwu
+  project: -muse-dash-7xzoc
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/001-iwxwu/-muse-dash-7xzoc/dataset/2
